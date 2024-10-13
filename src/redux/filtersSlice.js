@@ -14,7 +14,6 @@ const filtersSlice = createSlice({
 
 export const { changeFilter } = filtersSlice.actions;
 
-// Селектор для получения значения фильтра
 export const selectNameFilter = (state) => state.filters.name;
 
 export default filtersSlice.reducer;

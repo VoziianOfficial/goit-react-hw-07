@@ -61,10 +61,10 @@ export const { setFilter } = contactsSlice.actions;
 const selectContacts = (state) => state.contacts.items;
 const selectFilter = (state) => state.contacts.filter;
 
-// Меморизований селектор для фільтрації контактів
 export const selectFilteredContacts = createSelector(
   [selectContacts, selectFilter],
   (contacts, filter) => {
+    if (!filter) return contacts;
     return contacts.filter((contact) =>
       contact.name.toLowerCase().includes(filter.toLowerCase())
     );
