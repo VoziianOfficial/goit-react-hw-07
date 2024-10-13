@@ -1,0 +1,25 @@
+.deleteBtn {
+  background-color: rgb(27, 0, 54);
+  border-radius: 11px;
+  margin-left: 10px;
+  color: aliceblue;
+  cursor: pointer;
+  border: none;
+  padding: 4px;
+  width: 50px;
+}
+
+.contactItem {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactList {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}

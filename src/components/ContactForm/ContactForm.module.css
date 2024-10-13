@@ -1,0 +1,51 @@
+.formInput {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.formInput:hover {
+  border-color: #c13787;
+}
+
+.formBtn {
+  padding: 10px 20px;
+  background-color: #6b0445;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  max-width: 150px;
+  margin-left: 33px;
+  margin-top: 10px;
+}
+
+.formBtn:hover {
+  background-color: #c13787;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 3px solid rgb(30, 1, 30);
+  width: 230px;
+  padding: 25px;
+}
+
+.p {
+  padding-left: 10px;
+}
