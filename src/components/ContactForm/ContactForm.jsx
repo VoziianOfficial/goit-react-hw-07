@@ -14,8 +14,8 @@ const ContactForm = () => {
   });
 
   const handleSubmit = (values, { resetForm }) => {
-    dispatch(addContact(values)); // Отправляем значения формы в Redux
-    resetForm(); // Очищаем форму после отправки
+    dispatch(addContact(values));
+    resetForm();
   };
 
   return (

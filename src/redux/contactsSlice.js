@@ -54,10 +54,10 @@ const contactsSlice = createSlice({
   },
 });
 
-// Експортуємо екшен для зміни фільтра
+// Экспорт экшена для фильтрации
 export const { setFilter } = contactsSlice.actions;
 
-// Селектори для отримання стану контактів і фільтру
+// Селекторы для состояния контактов и фильтра
 const selectContacts = (state) => state.contacts.items;
 const selectFilter = (state) => state.contacts.filter;
 
